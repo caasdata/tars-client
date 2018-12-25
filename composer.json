@@ -1,0 +1,27 @@
+{
+    "name": "caasdata/tars-client",
+    "description": "tars的php-client能力",
+    "version":"0.1.5",
+    "authors": [
+        {
+            "name": "Chen Liang",
+            "email": "liangchen@yuewen.com"
+        },
+        {
+            "name": "Xiaoguang Cui",
+            "email": "cuixiaoguang@yuewen.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3",
+        "caasdata/tars-registry": "~0.1",
+        "caasdata/tars-monitor": "^0.1.2",
+        "caasdata/tars-utils": "~0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tars\\client\\": "src/"
+        }
+    }
+}
